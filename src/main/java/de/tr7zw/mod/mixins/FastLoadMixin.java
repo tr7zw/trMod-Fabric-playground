@@ -39,7 +39,6 @@ public abstract class FastLoadMixin {
 				System.out.println("Precaching worlds");
 				getLevelList();
 			} catch (LevelStorageException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}).run();

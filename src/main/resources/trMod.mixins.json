@@ -12,7 +12,8 @@
   "client": [
 	"BlockMixin",
 	"FastLoadMixin",
-	"TitleScreenMixin"
+	"TitleScreenMixin",
+	"MultiplayerServerListWidgetMixin"
   ],
   "injectors": {
     "defaultRequire": 1
