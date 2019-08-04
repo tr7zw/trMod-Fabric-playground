@@ -3,15 +3,16 @@
   "package": "de.tr7zw.mod.mixins",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+	
+  ],
+  "server": [
+	"ReplaceSkin",
+	"SkinData"
   ],
   "client": [
-    "LivingEntityRendererMixin",
-	"FirstPersonRendererMixin",
-	"PlayerRenderMixin",
-	"ArmorRendererMixin",
-	"CameraMixin",
-	"InventoryScreenMixin",
-	"BlockMixin"
+	"BlockMixin",
+	"FastLoadMixin",
+	"TitleScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1
